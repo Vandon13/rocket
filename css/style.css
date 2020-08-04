@@ -1,4 +1,15 @@
 @charset "UTF-8";
+body {
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 96%;
+}
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -73,4 +84,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.header {
+  padding: 60px 0;
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 96%;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 20px;
+}
 /*# sourceMappingURL=style.css.map */
