@@ -34,3 +34,4 @@ package-lock.json
 package.json
 .vscode
 *.css.map
+.gitignore
