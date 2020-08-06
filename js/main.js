@@ -6,4 +6,8 @@ var instance = new vidbg('.video', {
 }, {
 	// Attributes
 });
+
 var rellax = new Rellax('.rocket');
+if (document.body.clientWidth < 576) {
+	rellax.destroy();
+}
